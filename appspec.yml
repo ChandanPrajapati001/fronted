@@ -3,7 +3,7 @@ Resources:
   - TargetService:
       Type: AWS::ECS::Service
       Properties:
-        TaskDefinition: “arn:aws:ecs:ap-south-1:957779811736:task-definition/Fronted-Food-task:1",
+        TaskDefinition: “arn:aws:ecs:ap-south-1:957779811736:task-definition/Fronted-Food-task:2",
         LoadBalancerInfo:
           ContainerName: 'Fronted-Food-Container'
           ContainerPort: 3000
