@@ -60,4 +60,5 @@ EXPOSE 3000
  # CMD curl --fail http://staging.marketplace.envr.earth/health || exit 1
 
 # Start the app
-CMD ["npm", "run", "start"]
+CMD ["npm", "start"]
+
